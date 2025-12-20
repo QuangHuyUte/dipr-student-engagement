@@ -1,8 +1,9 @@
 streamlit
 ultralytics
-opencv-python-headless
+opencv-python
 pandas
 numpy
 plotly
-pillow
-openpyxl
+Pillow
+requests
+streamlit-lottie
