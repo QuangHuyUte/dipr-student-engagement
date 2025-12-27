@@ -362,9 +362,8 @@ with tab_vid:
             chart_spot.plotly_chart(get_empty_chart(), use_container_width=True)
             pie_spot.plotly_chart(get_empty_chart("No Data"), use_container_width=True)
 
-    # 5. SCANNING LOOP (FIX GHOST UI)
+    # 5. SCANNING LOOP 
     if st.session_state.is_scanning:
-        # --- BƯỚC QUAN TRỌNG: DỌN DẸP SẠCH SẼ TRƯỚC KHI CHẠY ---
         video_placeholder.empty() 
         chart_spot.empty()
         pie_spot.empty()
